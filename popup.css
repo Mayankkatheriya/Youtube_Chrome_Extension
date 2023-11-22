@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  min-width: 350px;
+  color: rgb(181, 235, 236);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(145, 223, 226);
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 1px 3px rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.memegif {
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.616);
+}
+.textbox {
+  border: 2px solid red;
+  width: 100%;
+  font-size: 12px;
+  margin: 0;
+  padding: 0px 2px;
+}
+
+.textbox:focus {
+  outline: 0;
+  border-color: #66afe9;
+}
+
+.bookmarks {
+  margin: 5px 5px;
+  padding: 3px;
+}
+.row{
+  color: black;
+}
+.bookmark {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-color: #00254d;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-radius: 0.8rem;
+  padding: 7px 10px;
+  margin-bottom: 7px;
+  width: 100%;
+  background-color: #001730;
+  gap: 1rem;
+}
+
+.bookmark-title {
+  padding-left: 2px;
+}
+
+.c-time {
+  font-weight: 700;
+  font-size: 14px;
+}
+.bookmark-dels {
+  margin: 0 5px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.bookmark-controls {
+  /* border: 2px solid blue; */
+  display: flex;
+}
+.bookmark-controls img {
+  /* border: 2px solid red; */
+  margin: 0 4px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 0.2s ease-out;
+}
+.play:hover,
+.delete:hover {
+  transform: scale(1.8);
+}
+.bhaiMeme {
+  width: 250px;
+  border-radius: 10px;
+}
