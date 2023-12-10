@@ -19,6 +19,7 @@ const addNewBookmark = (bookmarks, bookmark) => {
   //TODO add keypoint of bookmark
   const bookmarkdels = document.createElement("div")
   bookmarkdels.textContent = bookmark.dels;
+  bookmarkdels.contentEditable = true;
   bookmarkdels.className = "bookmark-dels";
   newBookmarkElement.appendChild(bookmarkdels);
   
